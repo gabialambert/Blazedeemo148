@@ -1,0 +1,17 @@
+Page Objects
+- Forma/Abordagem de organização da automação de teste
+
+Estrutura
+- Mapeamento de paginas
+
+Prioridades de Seletores
+- uuid: indentificador unico universal (raro)
+- data-teste : indicado pelo W3C
+- id : precedido por #
+- name : [name='algum_nome']
+- cssSelector (h1.title.bold), tag (h1) e class (title.bold)
+- outros tipos de propridades
+- xPath: coordenada do elemento (quando nao tem outra forma ou apos medir o desempenho
+comparado a outros localizadore)
+
+xPath
